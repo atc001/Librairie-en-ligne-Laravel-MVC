@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+}
+header h1 {
+    font-size: 40px;
+}
+header ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+header ul li {
+    list-style: none;
+    padding-right: 10px;
+}
+header ul li a {
+	text-decoration: none;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+}
+#main_accueil {
+    height: 790px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#titre {
+    font-size: 35px;
+}
+#titre h2 {
+    margin: 5px;
+}
+#list ul {
+    height: 75px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 350px;
+}
+#list ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+#list ul li a {
+    text-decoration: none;
+}
+#main_auth {
+    height: 790px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_inscription {
+    height: 790px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_liste {
+    height: 790px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_add {
+    height: 790px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
