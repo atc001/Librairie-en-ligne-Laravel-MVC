@@ -1,4 +1,5 @@
 <header>
+	<i class="fa fa-book" aria-hidden="true"></i>
 	<h1>Librairie</h1>
 	<ul>
 		<li><a href="/">Accueil</a></li>

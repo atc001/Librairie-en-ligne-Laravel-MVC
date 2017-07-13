@@ -19,5 +19,11 @@ Route::get('/ajoutlivre', 'ListerController@ajoutlivre');
 
 Route::post('/insertlivre', 'ListerController@insertlivre');
 
+Route::post('/deletelivre', 'ListerController@deletelivre');
+
+Route::post('/updatelivre', 'ListerController@updatelivre');
+
+Route::post('/updatelivre_action', 'ListerController@updatelivre_action');
+
 Auth::routes();
 

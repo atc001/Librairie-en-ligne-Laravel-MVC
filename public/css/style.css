@@ -4,9 +4,13 @@ body {
 header {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: lightblue;
+}
+.fa-book {
+    font-size: 50px;
+    padding-left: 10px;
 }
 header h1 {
     font-size: 40px;
@@ -85,14 +89,18 @@ footer {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+#main_liste h2 {
+    font-size: 30px;
 }
 #main_add {
     height: 790px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+#main_add h2 {
+    font-size: 30px;
 }
