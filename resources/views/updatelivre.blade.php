@@ -7,7 +7,7 @@
         {{ Form::label('title', 'Titre du livre') }}
         {{ Form::text('title', $title) }}
         {{ Form::label('author', 'Auteur du livre') }}
-        {{ Form::text('author', $author) }}
+        {{ Form::select('author[]', $authors, null, array('multiple' => 'multiple')) }}
         {{ Form::hidden('id', $id) }}
         {{ Form::submit('Modifier') }}
         {{ Form::close() }}

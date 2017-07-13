@@ -91,6 +91,9 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+#main_liste img {
+    height: 100px;
+}
 #main_liste h2 {
     font-size: 30px;
 }
@@ -102,5 +105,29 @@ footer {
     align-items: center;
 }
 #main_add h2 {
+    font-size: 30px;
+}
+#tableau {
+    border: 2px solid black;
+    border-spacing: 0;
+}
+#tableau tr:nth-child(odd) {
+    background-color: lightblue;
+}
+.separe {
+    border-right: 1px solid black;
+}
+#main_ecrire {
+    height: 790px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main_ecrire form {
+    display: flex;
+    flex-direction: column;
+}
+#main_ecrire h2 {
     font-size: 30px;
 }

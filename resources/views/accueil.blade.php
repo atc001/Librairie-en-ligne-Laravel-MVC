@@ -9,7 +9,16 @@
         <ul>
             <li><a href="/lister">Lister</a></li>
             @if (!Auth::guest())
-                <li><a href="/ajoutlivre">Ajouter</a></li>
+                <li><a href="/ajoutlivre">AjouterL</a></li>
+            @endif
+            @if (!Auth::guest())
+                <li><a href="/ajoutauthor">AjouterA</a></li>
+            @endif
+            @if (!Auth::guest())
+                <li><a href="/ecrire">Ecrire</a></li>
+            @endif
+            @if (!Auth::guest())
+                <li><a href="/messagerie">Messagerie</a></li>
             @endif
         </ul>
     </div>
